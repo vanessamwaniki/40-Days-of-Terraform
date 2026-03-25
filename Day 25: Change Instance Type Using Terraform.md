@@ -9,10 +9,10 @@
 <img width="600" height="347" alt="image" src="https://github.com/user-attachments/assets/61198995-2e90-481b-ad23-101f9c364147" />
 
 ```
-terrafrom init
+terraform init
 terraform plan
-terranform apply
-terrafrom show
+terraform apply
+terraform show
 ```
 
 <img width="635" height="232" alt="image" src="https://github.com/user-attachments/assets/30db7e75-baf9-43aa-97dd-f60d7e9b2c5f" />
