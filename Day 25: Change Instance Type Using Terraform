@@ -1,0 +1,14 @@
+##Task
+Change the instance type from t2.micro to t2.nano for nautilus-ec2 instance using terraform.
+
+Make sure the EC2 instance nautilus-ec2 is in running state after the change.
+
+
+##Solution
+
+
+terrafrom init
+terraform plan
+terranform apply
+terrafrom show
+
