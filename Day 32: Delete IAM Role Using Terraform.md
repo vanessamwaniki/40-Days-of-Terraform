@@ -25,10 +25,10 @@ terraform show
 - Result: Terraform identifies that the resource is missing from the configuration but exists in the state, so it generates a plan to destroy only that resource. 
 
 3. Using the removed Block (Modern Approach)
-- Starting with Terraform v1.7+, you can use the removed block to gracefully handle resource deletion. 
+- Starting with Terraform v1.7+, you can use the removed block to gracefully handle resource deletion.
+- Setting `destroy = false` allows you to remove a resource from Terraform’s state while ensuring the real infrastructure object remains intact.
 - Replace your resource block with:
 ```
-hcl
 removed {
   from = aws_instance.example
   lifecycle {
